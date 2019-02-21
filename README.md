@@ -79,5 +79,5 @@ gcc real_time_mfcc.c -L../lib/ -lmfcc -lm -lrt -lasound -pthread -o real_time_mf
 python mse_check.py
 ```
 
-## Author
+## Contributor
 Akarsh Prabhakara
