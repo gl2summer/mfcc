@@ -10,7 +10,7 @@ raw = [line.rstrip('\n') for line in open('recorded_data.dat')]
 raw = np.array(raw)
 rawnp = raw.astype(np.int)
 
-# If you change the MFCC / audio parameters in example.c, supplement the right arguments for mfcc() 
+# If you change the MFCC / audio parameters in real_time_mfcc.c, supplement the right arguments for mfcc() 
 mf = mfcc(rawnp)
 
 result = [line.rstrip('\n') for line in open('mfcc_result.dat')]
